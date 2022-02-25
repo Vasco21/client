@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css';
-import Ai from '../../assets/Ai.png';
+import Ai from '../../assets/ai.png';
 
 export default function header() {
   return (
@@ -17,10 +17,10 @@ export default function header() {
           <input type="email" placeholder="Your Email Address"/>
           <button type="button">Get Started </button>
         </div>
+      </div>
         <div className="gpt3__header-image">
           <img src={Ai} alt="ai"/>
         </div>
-      </div>
     </div>
   )
 }
