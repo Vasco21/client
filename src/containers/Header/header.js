@@ -18,7 +18,7 @@ export default function header() {
           <button type="button">Get Started </button>
         </div>
       </div>
-        <div className="gpt3__header-image">
+      <div className="gpt3__header-image">
           <img src={Ai} alt="ai"/>
         </div>
     </div>

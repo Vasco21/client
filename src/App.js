@@ -1,19 +1,19 @@
 import './App.css';
-import { Footer,  Blog, Possibility, Features, Header , AboutCompany} from './containers'
-import { Article, Feature , Navbars} from './components'
+import { Footer,  Blog, Possibility, Feature, Header , AboutCompany} from './containers'
+import { Article, Features , Navbars } from './components'
 
 function App() {
   return (
     <div className="App">
       <div className="gradient__bg">
-        <Navbars/>
-        <Header/>
+         <Navbars/>
+          <Header/> 
       </div>
       <Article/>
       <AboutCompany/>
       <Features/>
-      <Possibility/>
       <Feature/>
+      <Possibility/>
       <Blog/>
       <Footer/> 
     </div>
