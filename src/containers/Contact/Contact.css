@@ -1,0 +1,346 @@
+.gpt3__contact {
+    display: flex;
+    
+}
+
+.gpt3__contact-content {
+    flex:0.7;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction:column;
+
+    margin-right: 5rem;
+}
+
+.gpt3__contact-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 40px;
+    letter-spacing: -0.04em;
+}
+.gpt3__contact-content__input h2 {
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clop: text;
+    -webkit-text-fill-color: transparent ;
+}
+.gpt3__contact-content p {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size:20px;
+    line-height: 27px;
+    color: var(--color-text);
+
+    margin-top: 1.5rem;
+}
+
+.gpt3__contact-content__input {
+    width:100%;
+    margin: 2rem 0 1rem;
+
+    display: flex;
+}
+.gpt3__contact-content__input input {
+    flex:2;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 27px;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    color: #fff;
+    
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.gpt3__contact-content__input button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size:20px;
+    line-height: 27px;
+    background: #FF4820;
+    border-radius: 5px 0px 0px 5px;
+    color:#FFFFFF;
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.gpt3__contact-image {
+    flex:1;
+    display: flex;
+    overflow: hidden;
+    border-radius: 15px;
+    height:90vh;
+    width: 100%;
+    background: var(--color-footer);
+
+     /* ff 3.6+ */
+     background:-webkit-linear-gradient(90deg, rgba(96, 96, 95, 0.95) 0%, rgba(20, 19, 19, 0.79) 100%, rgba(253, 235, 253, 1) 100%, rgba(253, 235, 253, 1) 100%, rgba(253, 235, 253, 1) 100%);
+
+     /* opera 11.10+ */
+     background:-o-linear-gradient(90deg, rgba(96, 96, 95, 0.95) 0%, rgba(20, 19, 19, 0.79) 100%, rgba(253, 235, 253, 1) 100%, rgba(253, 235, 253, 1) 100%, rgba(253, 235, 253, 1) 100%);
+ 
+     /* ie 6-9 */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FDEBFD', endColorstr='#60605F', GradientType=0 );
+ 
+     /* ie 10+ */
+     background:-ms-linear-gradient(90deg, rgba(96, 96, 95, 0.95) 0%, rgba(20, 19, 19, 0.79) 100%, rgba(253, 235, 253, 1) 100%, rgba(253, 235, 253, 1) 100%, rgba(253, 235, 253, 1) 100%);
+ 
+     /* global 94%+ browsers support */
+     background:linear-gradient(90deg, rgba(96, 96, 95, 0.95) 0%, rgba(20, 19, 19, 0.79) 100%, rgba(253, 235, 253, 1) 100%, rgba(253, 235, 253, 1) 100%, rgba(253, 235, 253, 1) 100%); 
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-size: cover;
+
+}
+.gpt3__contact-info{
+    border-radius: 15px;
+    flex: 0 1 40%;
+    padding:10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;   
+}
+.gpt3__contact-info h4{
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0;
+}
+.gpt3__contact-info p{
+    color: rgba(255,255,255,.7);
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.gpt3__contact-icons {
+    color:white;
+    font-size: 50px;
+}
+.gpt3__contact-icons p{
+    padding-bottom:15px;
+}
+.icon-text {
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    
+}
+.icon-text .fa {
+    flex:0 0 20px;
+    font-size: 2.2rem;
+    margin-right: 2rem;
+}
+.icon-text  span{
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    
+}
+.social-media{
+    display: flex;
+    width:50%;
+    justify-content:space-between;
+}
+.circle{
+    flex:0 1 40px;
+    display: flex;
+    justify-content:center;
+    align-items:center; 
+    height:40px;
+    border-radius: 50%;
+    transition: .3s all ease-in-out;
+}
+.circle:hover{
+    background:var(--gradient-bar);
+
+}
+.fa{
+    font-size: 15px;
+}
+form{
+    padding:40px;
+    width:100%;
+} 
+form .col-2{
+    display: flex;
+    width: 100%;
+    flex: 0 0 100%;
+}
+.form-group{
+    font-size:1.2rem;
+    justify-content:flex-start;
+    flex-direction: column;
+    flex: 0 1 100%;
+    padding-right: 40px;
+}
+.form-group textarea{
+    padding-right: 400px;
+
+}
+
+label{
+    font-size: 20px;
+    margin-bottom: 1rem;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+}
+label span{
+    color:rgb(248, 5, 5);
+}
+input[type="text"] , input[type="email"], input[type="tel"], textarea{
+    background: rgba(255,255,255,.2);
+    border:none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: white;
+    background:transparent;
+    border-bottom: 2px solid rgba(255,255,255,.4);
+    transition:all .3s ease-in-out;
+    margin-bottom: 2rem;
+}
+input[type="text"], input[type="email"], input[type="tel"], textarea, :focus{
+    border:none;
+    outline:none;
+    border-bottom: 2px solid #ff05d5;
+}
+input[type="text"], input[type="email"], input[type="tel"],  :nth-child(2){
+    padding-right: 0;
+}
+
+.radio-buttons{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 2rem;
+
+}
+.radio-button{
+    margin-right: 20px;
+}
+.textH{
+    text-align: center;
+    padding-bottom: 20px;
+    color:#fff
+}
+.radio-buttons label{
+    font-size: 1.2rem;
+}
+.radio-buttons textarea{
+    padding:0;
+}
+.right {
+    align-items:flex-end;
+}
+ button{
+    width:200px;
+    height:60px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border:none;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size:20px;
+    line-height: 27px;
+    background: #FF4820;
+    border-radius: 5px;
+    color:#FFFFFF;
+    cursor: pointer;
+}
+
+ 
+@media screen and (max-width: 1050px) {
+    .gpt3__contact {
+        flex-direction: column;
+    }
+    .gpt3__contact-content {
+        margin: 0 0 3rem;
+    }
+}
+@media screen and (max-width: 650px) {
+    .gpt3__contact h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .gpt3__contact p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .gpt3__contact-content__input input,
+    .gpt3__contact-content__input button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    form{
+        width: 100%;
+    }
+    form .col-2{
+        display: flex;
+        width: 100%;
+        flex: 0 1 100%;
+    }
+    .form-group{
+        font-size:1.2rem;
+        justify-content:flex-start;
+        flex-direction: column;
+        flex: 0 1 100%;
+        padding-right: 16px;
+    }
+    .form-group textarea{
+        padding-right: 400px;
+    
+    }
+    input[type="text"] , input[type="email"], input[type="tel"], textarea{
+        width: 200px;;
+    }
+}
+
+
+@media screen and (max-width: 490px) {
+    .gpt3__contact h1 {
+        font-size:36px;
+        line-height:48px;
+    }
+    .gpt3__contact p {
+        font-size:14px;
+        line-height:24px;
+    }
+    .gpt3__contact-content__input input,
+    .gpt3__contact-content__input button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    input[type="text"] , input[type="email"], input[type="tel"], textarea{
+        width: 100px;;
+    }
+    .textH{
+        font-size: 14px;
+        text-align: center;
+        padding-bottom: 20px;
+        color:#fff
+    }
+    .radio-button{
+        margin-right: 0px;
+    }
+    label{
+        font-size: 20px;
+        font-family: var(--font-family);
+        font-weight: 500;
+        color: #fff;
+    }
+   
+}

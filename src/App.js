@@ -1,5 +1,5 @@
 import './App.css';
-import { Footer,  Blog, Possibility, Feature, Header , AboutCompany} from './containers'
+import { Footer,Blog,Possibility,Feature, Header ,AboutCompany,Contact } from './containers'
 import { Article, Features , Navbars } from './components'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className="gradient__bg">
          <Navbars/>
-          <Header/> 
+        <Header/> 
       </div>
       <Article/>
       <AboutCompany/>
@@ -15,6 +15,8 @@ function App() {
       <Feature/>
       <Possibility/>
       <Blog/>
+
+      <Contact/>
       <Footer/> 
     </div>
   );

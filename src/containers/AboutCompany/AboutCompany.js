@@ -2,7 +2,7 @@ import React from 'react';
 import './AboutCompany.css';
 import Features from '../../components/Features/Features'
 
-export default function AbouCompany() {
+export default function AboutCompany() {
   return (
     <div className="gpt3__whatgpt3 section__margin" id="whpt3">
        <div className="gpt3__whatgpt3-feature">
@@ -11,7 +11,7 @@ export default function AbouCompany() {
        With a solid team of mobile designer Indigo Vision is at the forefront of developing hybrid and native 
        applications in J2ME devices, Android, IOs, Windows. 
        We have had the pleasure of completing apps for Global Blue chip companies, 
-       SME’s and some very creative thinkers. importance to allow your web site and web applications to be accessible via any device. operation systems and 
+       SMEs and some very creative thinkers. importance to allow your web site and web applications to be accessible via any device. operation systems and 
        browsers to allow for business to remain uninterrupted Get complete design freedom with the Editor. " />
        </div>
        <div className="gpt3__whatgpt3-heading">
@@ -32,7 +32,7 @@ export default function AbouCompany() {
        hat include images, words, or graphics. By constant communication with clients, customers, and other designers, they ensure that 
        their designs accurately reflect the desired message and effectively express information."/>
 
-       <Features title="Education" text="Here at Creative Power we recognise that everyone has different circumstances, That’s why we offer you Online studies and attending extra class on the weekend
+       <Features title="Education" text="Here at Creative Power we recognise that everyone has different circumstances, Thats why we offer you Online studies and attending extra class on the weekend
        Our bursaries make sure everyone gets a chance at education, and our flexible time models will make sure you can balance your other commitments." />
        </div>
     </div>

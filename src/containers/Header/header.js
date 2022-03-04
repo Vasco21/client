@@ -14,7 +14,7 @@ export default function header() {
            Discover the platform that gives you the freedom to have your own business Website and personal Website,
            together we can make change...</p>
         <div className="gpt3__header-content__input">
-          <input type="email" placeholder="Your Email Address"/>
+          <input type="emails" placeholder="Your Email Address"/>
           <button type="button">Get Started </button>
         </div>
       </div>

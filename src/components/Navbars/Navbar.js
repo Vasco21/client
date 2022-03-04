@@ -6,10 +6,11 @@ import logo from '../../assets/logo.png';
 const Menu = () => (
   <>
   <p><a href='#home'>Home</a></p>
-  <p><a href='#aboutC'>About Company</a></p>
   <p><a href='#possibility'>Possibility</a></p>
-  <p><a href='#feature'>Service</a></p>
+  <p><a href='#features'>Features</a></p>
   <p><a href='#blog'>Library</a></p>
+  <p><a href='#Contact'>Contact</a></p>
+
   </>
 )
 
@@ -25,10 +26,6 @@ export default function Navbar() {
              <Menu /> 
             </div>
         </div>
-        <div className="gpt3_navbar-sign">
-          <p>Sign in</p>
-          <button type="button">sign up</button>
-        </div>
         <div className="gpt3_navbar-menu">
           {toggleMenu
             ? <RiCloseLine color='#fff' size={27} onClick={() => setToggleMenu(false)} />
@@ -38,10 +35,6 @@ export default function Navbar() {
             <div className="gpt3_navbar-menu_container scale-up-center">
               <div className="gpt3_navbar-menu_container-links">
               <Menu />
-              <div className="gpt3_navbar-menu_container-links-sign">
-                <p>Sign in</p>
-                <button type="button">sign up</button>
-              </div> 
               </div>
             </div>
           )

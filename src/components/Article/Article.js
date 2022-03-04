@@ -1,6 +1,5 @@
 import React from 'react';
 import './Article.css';
-// import { google, slack, dropbox, shopify } from './imports' 
 
 
 export default function Article() {
@@ -8,7 +7,7 @@ export default function Article() {
     <div className='gpt3__brand section__padding'>
       <div>
         <a href="https://facebook.com/eddie.vasco/">
-          <i className="fa fa-google">google</i>
+          <i className="fa fa-google">oogle</i>
         </a>
       </div>
       <div>
@@ -23,7 +22,7 @@ export default function Article() {
       </div>
       <div>
         <a href="https://facebook.com/eddie.vasco/">
-          <i className="fa fa-shopify">shopify</i>
+          <i className="fa fa-cart-plus">shopify</i>
         </a>
       </div>
     </div>
