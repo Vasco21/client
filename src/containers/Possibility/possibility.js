@@ -1,9 +1,12 @@
 import React from 'react';
 import './possibility.css';
 import possibilityImage from '../../assets/computer.jpg';
+import Home from '../../components/Navbars/index'
 
 export default function possibility() {
   return (
+    <>
+    <Home/>
     <div className='gpt3__possibility section__padding' id="possibility">
       <div className="gpt3__possibility-image">
         <img src={possibilityImage} alt="possibility"/>
@@ -17,5 +20,6 @@ export default function possibility() {
           <h4>Book a slove session</h4>
       </div>
     </div>
+    </>
   )
 }

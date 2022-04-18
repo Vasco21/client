@@ -1,9 +1,12 @@
 import React from 'react';
 import './AboutCompany.css';
 import Features from '../../components/Features/Features'
+import Home from "../../components/Navbars/index"
 
-export default function AboutCompany() {
+export default function PossibilityAboutCompany() {
   return (
+    <>
+      <Home/>
     <div className="gpt3__whatgpt3 section__margin" id="whpt3">
        <div className="gpt3__whatgpt3-feature">
        <Features title="About our Company"  text="The rise of the Mobile APP has lead to a rapid scramble in the software development industry, 
@@ -36,5 +39,6 @@ export default function AboutCompany() {
        Our bursaries make sure everyone gets a chance at education, and our flexible time models will make sure you can balance your other commitments." />
        </div>
     </div>
+    </>
   )
 }

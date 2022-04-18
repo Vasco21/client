@@ -1,25 +1,43 @@
-import './App.css';
-import { Footer,Blog,Possibility,Feature, Header ,AboutCompany,Contact } from './containers'
-import { Article, Features , Navbars } from './components'
+import "./App.css";
+import {
+  Footer,
+  Possibility,
+  Feature,
+  Header,
+  Contact,
+} from "./containers";
+import { Article, Resource  } from "./components";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from './components/Navbars/index'
+import AboutCompany from "./containers/AboutCompany/AboutCompany";
+import Blog from './containers/Blog/blog'
+import Features from './components/Features/Features'
+import Become from './components/Become/index'
 
 function App() {
   return (
     <div className="App">
       <div className="gradient__bg">
-         <Navbars/>
-        <Header/> 
+        <Router>
+          <Switch>
+          </Switch>
+          <Route path="/" exact component={Home}/>
+          <Route path="/" exact component={Header}/>
+          {/* <Route path="/" exact component={Become}/> */}
+          {/* <Route path="/" exact component={}/> */}
+          <Route path="/aboutCompany" exact component={AboutCompany}/>
+          <Route path="/possibility" exact component={Possibility}/>
+          <Route path="/blogs" exact component={Blog}/>
+          {/* <Route path="/features" exact component={Features}/> */}
+          <Route path="/contact" exact component={Contact}/>
+        </Router>
       </div>
-      <Article/>
-      <AboutCompany/>
       <Features/>
+      <Article/>
       <Feature/>
-      <Possibility/>
-      <Blog/>
-
-      <Contact/>
-      <Footer/> 
+      <Footer />
     </div>
   );
-} 
+}
 
 export default App;

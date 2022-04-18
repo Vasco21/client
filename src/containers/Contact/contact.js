@@ -1,13 +1,16 @@
 import React from 'react';
-import './Contact.css';
+import './contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiagramProject } from '@fortawesome/free-solid-svg-icons';
 import { faUsersGear } from '@fortawesome/free-solid-svg-icons';
 import { faGears } from '@fortawesome/free-solid-svg-icons';
+import Home from '../../components/Navbars/index'
 
 
 export default function contact() {
   return (
+    <>
+    <Home/>
     <div className="gpt3__contact section__padding" id="home">
       <div className="gpt3__contact-content"> 
         <h1 className="gradient__text">
@@ -91,6 +94,7 @@ export default function contact() {
         </form>
       </div>
     </div>
+    </>
   )
 }
 

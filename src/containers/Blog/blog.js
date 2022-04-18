@@ -1,6 +1,7 @@
 import React from 'react';
 import './blog.css';
 import Staff from '../../components/Staff/Staff';
+import Home from '../../components/Navbars/index'
 
 import optimize from '../../assets/optimize.jpg';
 import develop from '../../assets/develop.jpg';
@@ -10,6 +11,8 @@ import WeThinkCode from '../../assets/WeThinkCode.jpg';
 
 export default function blog() {
   return (
+    <>
+    <Home/>
     <div className="gpt3__blog section__padding" id="blog">
     <div className="gpt3__blog-heading">
       <h1 className="gradient__text">We bring your organisation, <br/> in line with best practices through:</h1>
@@ -33,5 +36,6 @@ export default function blog() {
       </div>
     </div>
   </div>
+    </>
   )
 }
