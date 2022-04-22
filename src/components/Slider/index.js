@@ -58,13 +58,13 @@ class Slider extends React.Component {
                 <div className="slider__slide-content">
                   <h2 className="slider__slide-subheading">{slide.country || slide.city}</h2>
                   <h3 className="slider__slide-heading">
-                    {slide.city.split('').map(l => <span>{l}</span>)}
+                    {slide.city.split('').map(items => <span>{items}</span>)}
                   </h3>
                   <p className="slider__slide-readmore"></p>
                 </div>
                 <div className="slider__slide-parts">
-                  {[...Array(this.IMAGE_PARTS).fill()].map((x, i) => (
-                    <div className="slider__slide-part" key={i}>
+                  {[...Array(this.IMAGE_PARTS).fill()].map((getI) => (
+                    <div className="slider__slide-part" key={getI}>
                       <div className="slider__slide-part-inner" style={{ backgroundImage: `url(${slide.img})` }} />
                     </div>
                   ))}

@@ -8,16 +8,16 @@ const Menu = () => {
       <Nav>
         <Bars />
         <NavMenu>
-          <NavBtnLink to="/" activeStyle>Home
+          <NavBtnLink to="/" >Home
           </NavBtnLink>
-          <NavLink to="/aboutCompany" activeStyle>About</NavLink>
-          <NavLink to="/possibility" activeStyle>Possibility</NavLink>
-          <NavLink to="/become" activeStyle>Become An Dev</NavLink>
-          <NavLink to="/resources" activeStyle>CPD Resources</NavLink>
-          <NavLink to="/contact" activeStyle>Contact Us</NavLink>
+          <NavLink to="/aboutCompany" >About</NavLink>
+          <NavLink to="/possibility" >Possibility</NavLink>
+          <NavLink to="/become" >Become An Dev</NavLink>
+          <NavLink to="/resources" >CPD Resources</NavLink>
+          <NavLink to="/contact" >Contact Us</NavLink>
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to="/blogs" activeStyle>Blogs</NavBtnLink>
+          <NavBtnLink to="/blogs" >Blogs</NavBtnLink>
         </NavBtn>
       </Nav>
     </>

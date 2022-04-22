@@ -5,28 +5,28 @@ import Slider from '../../components/Slider';
 
 const slides = [
   {
-    city:'',
+    city:'CP Developer',
     country: 'To Become CP Dev Use Online Capture and join use Today',
     img: 'https://res.cloudinary.com/creative-power/image/upload/v1650606235/Best-Code-and-Text-Editors_pwbovf.png',
   },
   {
-    city:'',
+    city:'Solve',
     country: 'We use APIs, cloud-native software, modern technology platforms and reusable code to develop functionality in a way that ensures fastest time to market. We focus on quality assurance throughout, making use of automated testing capabilities.',
     img: 'https://res.cloudinary.com/creative-power/image/upload/v1650601277/image_from_ios-2_curod5.jpg',
   },
   {
-    city:'',
+    city:'Building',
     country: 'We apply human-centred design thinking and practices to solve problems not only for our clients, but for their customers too',
     img: 'https://res.cloudinary.com/creative-power/image/upload/v1650606405/hum_d24z3m.webp',
   },
   {
-    city:'',
+    city:'Understanding Dev',
     country: 'We work to optimise your DevOps by understanding current dev and ops teams',
     img: 'https://res.cloudinary.com/creative-power/image/upload/v1650603744/TECH_c3kfmm.jpg',
   },
   {
-    city:'',
-    country: '',
+    city:'Code',
+    country: '//',
     img: 'https://res.cloudinary.com/creative-power/image/upload/v1650606564/completion-signature-help_og1mye.gif',
   },
 ];
