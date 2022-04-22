@@ -3,7 +3,7 @@ import './Navbar.css';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/logo.png';
 import Menu from './Menu';
-import Arrows from '../Arrows/index'
+
 
 export default function Home() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -36,7 +36,6 @@ export default function Home() {
         <a href="#"><button className="button" >Self Service</button></a>
     </div>
     <Menu/>
-    <Arrows/>
     </>
   )
 }

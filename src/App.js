@@ -10,9 +10,9 @@ import { Article, Resource  } from "./components";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from './components/Navbars/index'
 import AboutCompany from "./containers/AboutCompany/AboutCompany";
-import Blog from './containers/Blog/blog'
+import Blog from './containers/Blog/blog';
 import Features from './components/Features/Features'
-import Become from './components/Become/index'
+import Become from './components/Become/index';
 
 function App() {
   return (
