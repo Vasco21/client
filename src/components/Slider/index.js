@@ -2,14 +2,12 @@ import React from 'react';
 import classNames from 'classnames';
 import './styles.scss'
 
-
-
 class Slider extends React.Component {
     constructor(props) {
       super(props);
       
       this.IMAGE_PARTS = 4;
-      
+    
       this.changeTO = null;
       this.AUTOCHANGE_TIME = 4000;
       
@@ -50,21 +48,21 @@ class Slider extends React.Component {
         <div className={classNames('slider', { 's--ready': sliderReady })}>
           <p className="slider__top-heading"></p>
           <div className="slider__slides">
-            {this.props.slides.map((slide, index) => (
+            {this.props?.slides.map((slide, index) => (
               <div
                 className={classNames('slider__slide', { 's--active': activeSlide === index, 's--prev': prevSlide === index  })}
-                key={slide.city}
+                key={index.city}
                 >
                 <div className="slider__slide-content">
                   <h2 className="slider__slide-subheading">{slide.country || slide.city}</h2>
                   <h3 className="slider__slide-heading">
-                    {slide.city.split('').map(items => <span>{items}</span>)}
+                    {slide.city.split('').map(slide => <span>{slide}</span>)}
                   </h3>
                   <p className="slider__slide-readmore"></p>
                 </div>
                 <div className="slider__slide-parts">
-                  {[...Array(this.IMAGE_PARTS).fill()].map((getI) => (
-                    <div className="slider__slide-part" key={getI}>
+                  {[...Array(this.IMAGE_PARTS).fill()].map((x, i) => (
+                    <div className="slider__slide-part" key={i}>
                       <div className="slider__slide-part-inner" style={{ backgroundImage: `url(${slide.img})` }} />
                     </div>
                   ))}
@@ -78,9 +76,6 @@ class Slider extends React.Component {
       );
     }
   }
-  
-  
-
   export default  Slider ;
 
 
